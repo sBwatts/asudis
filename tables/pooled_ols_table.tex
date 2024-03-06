@@ -1,0 +1,36 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{\centering Pooled OLS Regression Models}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                &\multicolumn{1}{c}{Role of the police}&\multicolumn{1}{c}{Naloxone related beliefs}&\multicolumn{1}{c}{Stigma towards PWUOs}\\
+\midrule
+Rarely (less than once per week)&0.024 (0.082)         &-0.076 (0.076)         &-0.101 (0.078)         \\
+Once per week   &0.000 (0.091)         &-0.005 (0.088)         &-0.069 (0.091)         \\
+Once per shift  &0.034 (0.167)         &0.010 (0.133)         &-0.113 (0.138)         \\
+Multiple times per shift&-0.246 (0.262)         &0.042 (0.206)         &-0.008 (0.213)         \\
+Ever administered naloxone&0.190\sym{***} (0.068)         &-0.094 (0.076)         &-0.035 (0.078)         \\
+Patrol          &-0.095 (0.066)         &0.081 (0.061)         &0.034 (0.063)         \\
+Black           &0.220 (0.134)         &0.040 (0.134)         &-0.134 (0.139)         \\
+Hispanic        &-0.001 (0.070)         &0.119 (0.073)         &-0.009 (0.075)         \\
+Other           &-0.059 (0.119)         &0.096 (0.121)         &0.079 (0.125)         \\
+Female          &0.070 (0.075)         &0.072 (0.069)         &-0.158\sym{**} (0.072)         \\
+College degree  &-0.173\sym{***} (0.062)         &-0.054 (0.061)         &-0.030 (0.063)         \\
+1-2 years with  &-0.137 (0.103)         &0.180 (0.145)         &-0.026 (0.150)         \\
+2-5 years with  &-0.240\sym{**} (0.115)         &0.199 (0.133)         &0.001 (0.138)         \\
+6-10 years with &-0.419\sym{***} (0.114)         &0.303\sym{**} (0.133)         &0.028 (0.138)         \\
+11+ years with  &-0.318\sym{***} (0.096)         &0.114 (0.121)         &-0.040 (0.125)         \\
+I would be able to effectively deal with an OD&0.172\sym{***} (0.053)         &-0.042 (0.040)         &0.099\sym{**} (0.041)         \\
+Wave 2          &0.012 (0.071)         &0.037 (0.070)         &0.053 (0.072)         \\
+Wave 3          &0.046 (0.110)         &0.042 (0.094)         &0.119 (0.098)         \\
+Wave 4          &0.051 (0.092)         &0.067 (0.090)         &0.066 (0.093)         \\
+Constant        &2.901\sym{***} (0.179)         &2.130\sym{***} (0.164)         &2.153\sym{***} (0.170)         \\
+\midrule
+Observations    &      459         &      458         &      459         \\
+\(R^{2}\)       &    0.164         &    0.050         &    0.051         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
